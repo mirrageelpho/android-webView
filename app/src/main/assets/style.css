@@ -47,9 +47,14 @@ body{
     width: 300px;
     padding: 5px 10px;
     font-weight: bold;
-    background-color: #202020;
-    color: rgb(255, 255, 255);
+    background-color: #20202000;
+    color: #08d2ff;;
     border: none;
+    z-index: 50;
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%)
 }
 .forcaContent {
     position: absolute;

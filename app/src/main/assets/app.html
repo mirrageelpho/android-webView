@@ -10,6 +10,8 @@
   </head>
   <body>
     <div id="fullpage">
+
+
       <section class="section s1">
         <h1>Options</h1>
         <ul>
@@ -18,21 +20,25 @@
           <li><button onClick="playGame('prof')">Profissões</button></li>
           <li><button onClick="playGame('animais')">Animais</button></li>
         </ul>
-        <div class="btn" onClick="loadCredits()">Créditos</div>
+        <div class="btn" onClick="moveToPage('page3')">Créditos</div>
       </section>
+
+
       <section class="section s2">
         <h1>Jogo da Forca</h1>
         <div class="forcaContent">
           <img src="./img/forca.png" alt="" />
           <div id="palavra"></div>
         </div>
-        <div class="btn" onClick="loadCredits()">Reiniciar</div>
-        <p></p>
+        <div class="btn" onClick="moveToPage('page1')">Reiniciar</div>
       </section>
-
+      
       <section class="section s3">
         <h1>Créditos</h1>
+        <div class="btn" onClick="moveToPage('page1')">Voltar</div>
       </section>
+
+
     </div>
     <script src="./fullpage.min.js"></script>
     <script src="./app.js"></script>
