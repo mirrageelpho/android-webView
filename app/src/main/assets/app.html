@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./fullpage.min.css" />
+    <title>Game</title>
+  </head>
+  <body>
+    <div id="fullpage">
+      <section class="section s1">
+        <h1>Options</h1>
+        <ul>
+            
+          <li><button onClick="playGame('times')">Times de Futebol</button></li>
+          <li><button onClick="playGame('prof')">Profissões</button></li>
+          <li><button onClick="playGame('animais')">Animais</button></li>
+        </ul>
+        <div class="btn" onClick="loadCredits()">Créditos</div>
+      </section>
+      <section class="section s2">
+        <h1>Jogo da Forca</h1>
+        <div class="forcaContent">
+          <img src="./img/forca.png" alt="" />
+          <div id="palavra"></div>
+        </div>
+        <div class="btn" onClick="loadCredits()">Reiniciar</div>
+        <p></p>
+      </section>
+
+      <section class="section s3">
+        <h1>Créditos</h1>
+      </section>
+    </div>
+    <script src="./fullpage.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

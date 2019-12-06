@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.s1{
+    background: #202020;
+}
+
+.section h1{
+    font-size: 20pt;
+    color: #08d2ff;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.section ul{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+.section li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.section button{
+    cursor: pointer;
+    width: 300px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: #08d2ff;
+    color: rgb(24, 22, 22);
+    border: none;
+}
+.btn{
+    cursor: pointer;
+    width: 300px;
+    padding: 5px 10px;
+    font-weight: bold;
+    background-color: #202020;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.forcaContent {
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 30%;
+    left: 5%;
+    transform: translate(-5%, -30%);
+}
+
+.forcaContent #palavra {
+    position: absolute;
+    height: 25%;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    font-size: 25pt;
+}
