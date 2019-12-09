@@ -19,12 +19,12 @@ body{
 }
 
 .section h1{
-    font-size: 20pt;
+    font-size: 18pt;
     color: #08d2ff;
     position: absolute;
-    top: 10%;
+    top: 2%;
     left: 50%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%,  2%);
 }
 
 .section ul{
@@ -58,24 +58,67 @@ body{
     border: none;
     z-index: 50;
     position: absolute;
-    bottom: 15%;
+    bottom: 3%;
     left: 50%;
-    transform: translate(-50%, -15%)
+    transform: translate(-50%, -3%)
 }
 .forcaContent {
     position: absolute;
-    width: 100%;
-    height: 25%;
-    top: 30%;
-    left: 5%;
-    transform: translate(-5%, -30%);
+    width: 300px;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -28%);
 }
 
+.dica {
+    color: white;
+}
 .forcaContent #palavra {
     position: absolute;
     height: 25%;
-    top: 180%;
+    top: 150%;
     left: 50%;
-    transform: translate(-50%, -180%);
+    transform: translate(-50%, -150%);
     font-size: 25pt;
+    color: #08d2ff;
+}
+
+.message_content{
+    position: absolute;
+    width: 300px;
+    height: 85%;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -18%);
+    background-color: #202020;
+    border: 1px solid #08d2ff;
+    z-index: 100;
+}
+.message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #08d2ff;
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    background: #08d2ff;
+    height: 35%;
+    width: 300px;
+    bottom: 8%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -8%);
+}
+.key {
+    flex: 1;
+    margin: 5px;
+    padding: 3px 10px;
+    text-align: center;
+    font-size: 1.5em;
+    background: #202020;
+    color: #08d2ff;
+    cursor: pointer;
 }
