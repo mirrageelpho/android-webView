@@ -65,22 +65,30 @@ body{
 .forcaContent {
     position: absolute;
     width: 300px;
-    top: 18%;
+    top: 55px;
     left: 50%;
-    transform: translate(-50%, -28%);
+    transform: translate(-50%);
 }
 
-.dica {
-    color: white;
+.dica, .jogadas_restantes {
+    display: flex;
+    color: rgb(208, 186, 59);
+    font-weight: lighter;
+    align-items: center;
+    justify-content: center;
+}
+.jogadas_restantes{
+    color: #ff8808;
 }
 .forcaContent #palavra {
     position: absolute;
-    height: 25%;
-    top: 150%;
+    height: 30px;
+    bottom: -30px;
     left: 50%;
-    transform: translate(-50%, -150%);
+    transform: translate(-50%);
     font-size: 25pt;
     color: #08d2ff;
+    z-index: 200;
 }
 
 .message_content{
@@ -105,20 +113,57 @@ body{
     display: flex;
     flex-wrap: wrap;
     background: #08d2ff;
-    height: 35%;
+    height: 250px;
     width: 300px;
-    bottom: 8%;
+    top: 335px;
     left: 50%;
     position: absolute;
-    transform: translate(-50%, -8%);
+    transform: translate(-50%);
 }
 .key {
     flex: 1;
     margin: 5px;
-    padding: 3px 10px;
+    padding: 8px 10px 4px 10px;
     text-align: center;
     font-size: 1.5em;
     background: #202020;
     color: #08d2ff;
     cursor: pointer;
+}
+
+#cabeca{
+    position: absolute;
+    top: 32px;
+    left: 110px;
+    display: none;
+}
+#corpo{
+    position: absolute;
+    top: 75px;
+    left: 130px;
+    display: none;
+}
+#braco_dir{
+    position: absolute;
+    top: 80px;
+    left: 108px;
+    display: none;
+}
+#braco_esq{
+    position: absolute;
+    top: 80px;
+    left: 138px;
+    display: none;
+}
+#perna_esq{
+    position: absolute;
+    top: 120px;
+    left: 108px;
+    display: none;
+}
+#perna_dir{
+    position: absolute;
+    top: 120px;
+    left: 138px;
+    display: none;
 }
